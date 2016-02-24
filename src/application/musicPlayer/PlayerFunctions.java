@@ -11,7 +11,12 @@ public class PlayerFunctions implements Runnable{
 	Media hit;
 	MediaPlayer mp;
 	Main mn;
+	
+	//An instance of media player has been made
 	public static boolean running=false;
+	
+	//The instance of media player has been paused or not.
+	public static boolean pause=false;
 	
 	public static boolean isRunning() {
 		return running;

@@ -49,7 +49,7 @@ public class Main extends Application{
 			else{
 				//stopSongThread();
 				startSongThread();
-				}
+			}
 		}
 	}
 	
@@ -59,6 +59,7 @@ public class Main extends Application{
 			pf = new PlayerFunctions();
 			pf.startSong();
 		}
+		else{pf.pauseSong();}
 	}
 	
 	@FXML
